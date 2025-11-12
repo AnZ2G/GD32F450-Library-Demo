@@ -1,0 +1,12 @@
+# Force GitHub to recognize source language composition
+*.c linguist-language=C
+*.h linguist-language=C
+*.s linguist-language=Assembly
+*.py linguist-language=Python
+*.html linguist-language=HTML
+*.js linguist-language=JavaScript
+*.md linguist-language=Markdown
+
+# Ignore build artifacts and docs for language stats
+Docs/* linguist-documentation=true
+PCB/* linguist-generated=true

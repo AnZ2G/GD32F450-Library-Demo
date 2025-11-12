@@ -1,20 +1,61 @@
-# Visual Studio temporary files
-.vs/
-*.user
-*.suo
-*.pdb
+# ========================================
+# GD32F450 / Keil uVision Embedded Project
+# ========================================
+
+# Keil build output
+*.axf
+*.hex
+*.bin
+*.elf
+*.lst
+*.map
+*.sct
+*.lnp
+*.dep
+*.crf
+*.d
+*.o
 *.obj
-*.exe
-*.log
-*.idb
-*.ipch
-*.opensdf
-*.iobj
+*.bak
+*.uvgui.*
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+*.uvopt
+*.uvproj
+*.build_log.htm
+*.scvd
 
-# Build directories
-x64/Debug/
-x64/Release/
+# Output / listing folders
+Output/
+Listings/
+Objects/
+DebugConfig/
 
-# OpenCV runtime (optional, if not using compressed .rar)
-*.dll
-*.lib
+# Altium Designer temporary / generated files
+*.LOG
+History/
+Project Outputs/
+__Previews/
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.OutJobPreview
+
+# Backup and autosave files
+*.bak
+*.tmp
+~$*
+*.swo
+*.swp
+*.swn
+
+# macOS and Windows metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python virtual environment (if used for tools)
+venv/
+__pycache__/
+*.pyc
